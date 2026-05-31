@@ -246,7 +246,7 @@ Application – AI/ML Engineer | RAG, LLMs & Agentic AI Experience
 ```
 Dear Hiring Team,
 
-I am John Varshan, an AI Engineer with experience building production-grade
+I am [YOUR_NAME], an AI Engineer with experience building production-grade
 Generative AI, RAG, and Agentic AI solutions. I am currently exploring
 opportunities in AI/ML Engineering, and Data Science.
 
@@ -267,9 +267,9 @@ my experience can contribute to [COMPANY]'s initiatives.
 Thank you for your time and consideration.
 
 Best regards,
-John Varshan
-📧 varshanj805@gmail.com  📱 +91 9952250177
-🔗 LinkedIn  🔗 GitHub  📍 Bengaluru
+[YOUR_NAME]
+📧 [YOUR_EMAIL]  📱 [YOUR_PHONE]
+🔗 LinkedIn  🔗 GitHub  📍 [YOUR_CITY]
 ```
 
 ---
