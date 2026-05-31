@@ -12,7 +12,7 @@ from openai import OpenAI
 from config.settings import (
     OPENAI_API_KEY, LLM_MODEL,
     YOUR_NAME, YOUR_PHONE, YOUR_LINKEDIN,
-    YOUR_GITHUB, SENDER_EMAIL,
+    YOUR_GITHUB, SENDER_EMAIL, YOUR_LOCATION,
 )
 
 _client = OpenAI(api_key=OPENAI_API_KEY)
@@ -56,7 +56,7 @@ def _signature() -> str:
         f"Email    : {SENDER_EMAIL}\n"
         f"LinkedIn : {YOUR_LINKEDIN}\n"
         f"GitHub   : {YOUR_GITHUB}\n"
-        f"Location : Bengaluru, India"
+        f"Location : {YOUR_LOCATION}"
     )
 
 

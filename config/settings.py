@@ -34,6 +34,7 @@ YOUR_SKILLS     = [s.strip() for s in _require("YOUR_SKILLS").split(",")]
 YOUR_EDUCATION  = _require("YOUR_EDUCATION")
 YOUR_EXPERIENCE = [e.strip() for e in _require("YOUR_EXPERIENCE").split("|")]
 YOUR_PROJECTS   = _require("YOUR_PROJECTS")
+YOUR_LOCATION   = os.getenv("YOUR_LOCATION", "India")
 
 # ── Google Sheets ─────────────────────────────────────────────────────────────
 SHEET_ID                      = _require("SHEET_ID")

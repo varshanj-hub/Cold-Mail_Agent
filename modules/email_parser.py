@@ -92,16 +92,16 @@ def parse_email(email: str) -> dict:
 
 if __name__ == "__main__":
     tests = [
-        "careers@prescienceds.com",
-        "sri@zenact.ai",
-        "mahalaxmi.desai@brightmoney.co",
-        "shivani.sahraot@phonepe.com",
-        "hr@paytm.com",
-        "hiring@astrotalk.com",
-        "future@groww.in",
-        "himanshubarak@gmail.com",
-        "tateam@practo.com",
-        "rahul@third-unicorn.com",
+        "careers@example.com",
+        "hr@example.com",
+        "hiring@example.com",
+        "jobs@example.com",
+        "talent@example.com",
+        "firstname.lastname@example.com",
+        "john@example.com",
+        "team@example.com",
+        "hello@example.com",
+        "contact@example.com",
     ]
     for t in tests:
         print(f"{t:45s}  ->  {parse_email(t)}")
