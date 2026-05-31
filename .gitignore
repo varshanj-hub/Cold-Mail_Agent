@@ -1,0 +1,24 @@
+# Environment
+.env
+
+# Virtual environment
+.venv/
+
+# Google / Gmail credentials and tokens
+config/credentials.json
+config/service_account.json
+config/token.json
+
+# Resume (personal file)
+config/*.pdf
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
